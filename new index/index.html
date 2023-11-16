@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>DemandTech</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.jpg" rel="icon">
+  <link href="assets/img/favicon.jpg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS Files -->
+  <link href="assets/css/variables.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: ZenBlog
+  * Updated: Jul 27 2023 with Bootstrap v5.3.1
+  * Template URL: https://bootstrapmade.com/zenblog-bootstrap-blog-template/
+  * Author: BootstrapMade.com
+  * License: https:///bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="logo.PNG" alt="">
+        <!-- <h1>DemandTech</h1> -->
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="single-post.html">Trending Insights</a></li>
+
+          <li><a href="category.html">Whitepapers & Reports</a></li>
+          <li><a href="contact.html">Connect & Subscribe</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <div class="position-relative">
+        <a href="#" class="mx-2"><span class="bi-facebook"></span></a>
+        <a href="#" class="mx-2"><span class="bi-twitter"></span></a>
+        <a href="#" class="mx-2"><span class="bi-instagram"></span></a>
+
+        <a href="#" class="mx-2 js-search-open"><span class="bi-search"></span></a>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+
+        <!-- ======= Search Form ======= -->
+        <div class="search-form-wrap js-search-form-wrap">
+          <form action="search-result.html" class="search-form">
+            <span class="icon bi-search"></span>
+            <input type="text" placeholder="Search" class="form-control">
+            <button class="btn js-search-close"><span class="bi-x"></span></button>
+          </form>
+        </div><!-- End Search Form -->
+
+      </div>
+
+    </div>
+
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Hero Slider Section ======= -->
+    <section id="hero-slider" class="hero-slider">
+      <div class="container-md" data-aos="fade-in">
+        <div class="row">
+          <div class="col-12">
+            <div class="swiper sliderFeaturedPosts">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="https://defcon.org/" class="img-bg d-flex align-items-end"
+                    style="background-image: url('assets/img/td1.webp');">
+                    <div class="img-bg-inner">
+                      <h2>Unveiling DEF CON Communities: Empowering Hackers Beyond Traditional Categories</h2>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="https://workswith.silabs.com/?utm_source=Website&utm_term=Organic-Traffic"
+                    class="img-bg d-flex align-items-end" style="background-image: url('assets/img/td2.webp');">
+                    <div class="img-bg-inner">
+                      <h2>Works With 2023
+                      </h2>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="https://events.cdmmedia.com/event/0888acac-1849-4a69-8a79-a6a58cd3a0ef/summary"
+                    class="img-bg d-flex align-items-end" style="background-image: url('assets/img/td3.webp');">
+                    <div class="img-bg-inner">
+                      <h2>CIO/CISO Denver Summit
+                      </h2>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a href="https://www.automotive-iq.com/events-visual-display-hmi"
+                    class="img-bg d-flex align-items-end" style="background-image: url('assets/img/td4.webp');">
+                    <div class="img-bg-inner">
+                      <h2>6Th Annual Automative Display Technologies & HMI 2023
+                      </h2>
+                      <p></p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="custom-swiper-button-next">
+                <span class="bi-chevron-right"></span>
+              </div>
+              <div class="custom-swiper-button-prev">
+                <span class="bi-chevron-left"></span>
+              </div>
+
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Hero Slider Section -->
+
+    <!-- ======= Post Grid Section ======= -->
+    <section id="posts" class="posts">
+      <div class="container" data-aos="fade-up">
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <div class="post-entry-1 lg">
+              <a href="https://www.ey.com/en_sg/ey-events/-ceo-strategy-lunch-ey-ceo-outlook-pulse-2023"><img
+                  src="https://demandtech.net/images/Featured/f1.webp" alt="" class="img-fluid"></a>
+              <div class="post-meta"><span class="date">Featured</span> <span class="mx-1">&bullet;</span> <span></span>
+              </div>
+              <h4><a href="https://www.ey.com/en_sg/ey-events/-ceo-strategy-lunch-ey-ceo-outlook-pulse-2023">CEO
+                  Strategy Lunch: EY CEO Outlook Pulse 2023
+                 </a></h4>
+              <p class="mb-4 d-block">Join us to gain insights and discuss how CEOs can play both defense and offense in
+                their strategy ahead.
+                <br><br> The EY CEO Outlook Pulse survey of 2023, which canvassed the views of 1,200 CEOs across the
+                globe, including 40 from Singapore, found that the vast majority of CEO respondents are bracing for an
+                economic downturn. But views appear split on the length, depth and severity of this downturn.
+                <br><br>
+                Over a third of them in Singapore foresee a moderate slowdown in the global economy, while about half of
+                those preparing for a persistent downturn fear a recession worse than the global financial crisis of
+                2007-08 in terms of its length and severity.
+              </p>
+              Because of geopolitical challenges, some CEOs are reviewing their investment plans, many contemplating a
+              pause. Yet, securing competitive advantage is still important, with dealmaking of one kind or another
+              remaining a priority for most. Sustainability and talent are also top-of-mind issues: some CEOs are
+              planning to increase investment in sustainability as a core aspect of their strategy and about a third
+              plan to increase their investment in talent, including workforce wellbeing and skills development.
+
+
+              <div class="d-flex align-items-center author">
+                <!-- <div class="photo"><img src="assets/img/Houston CHRO" alt="" class="img-fluid"></div>
+                <div class="name">
+                  <h3 class="m-0 p-0">Cameron Williamson</h3>
+                </div> -->
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+            <div class="row g-5">
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <a href="https://www.evanta.com/chro/houston/houston-chro-inner-circle-5976"><img
+                      src="assets/img/Houston CHRO.jpg" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date"></span> <span class="mx-1">&bullet;</span> <span>April 4,
+                      2023</span></div>
+
+                  <h2><a href="https://www.evanta.com/chro/houston/houston-chro-inner-circle-5976">Houston CHRO Inner
+                      Circle</a></h2>
+                </div>
+                <div class="post-entry-1">
+                  <a href="https://www.gartner.com/en/webinar/464813/1097624"><img
+                      src="https://itbusinesstoday.com/wp-content/uploads/2022/10/Half-of-fintechs-losing-_11m-per-year-in-product-delays-due-to-BaaS-providers-696x398.jpg"
+                      alt="" style="border: 1px solid black; width: 300px; height: 150px;" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date"></span> <span class="mx-1">&bullet;</span> <span>Soon</span>
+                  </div>
+                  <h2><a href="https://www.gartner.com/en/webinar/464813/1097624">Manage Technical Debt to Create IT
+                      Wealth</a></h2>
+                </div>
+                <div class="post-entry-1">
+                  <a href="single-post-5.html"><img
+                      src="https://demandtech.net/LP/Content/A%20Human%20Resource%20Leaders%20Guide%20Delivering%20innovative%20people%20strategies%20with%20modern%20HR%20analytics/Capture1.PNG"
+                      alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">HR analytics</span> <span class="mx-1">&bullet;</span>
+                    <span></span></div>
+                  <h2><a href="single-post-5.html">A Human Resource Leader's Guide: Delivering innovative people
+                      strategies with modern HR analytics
+                    </a></h2>
+                </div>
+
+              </div>
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <a href="https://events.optiv.com/event/e9ba43fc-9fef-4f97-9178-f9f4782a5c30/summary"><img
+                      src="assets/img/Optiv.PNG" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">Westin Harbour Castle</span> <span
+                      class="mx-1">&bullet;</span> <span>April 04, 2023 </span></div>
+                  <h2><a href="https://events.optiv.com/event/e9ba43fc-9fef-4f97-9178-f9f4782a5c30/summary">An
+                      Educational
+
+                      Cybersecurity Experience</a></h2>
+                </div>
+                <div class="post-entry-1">
+                  <a href="single-post-6.html"><img
+                      src="https://demandtech.net/LP/Content/Top%205%20API%20Security%20Best%20Practices/Capture1.PNG"
+                      alt="" style="border: 1px solid black;" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">API Security</span> <span class="mx-1">&bullet;</span>
+                    <span></span></div>
+                  <h2><a href="single-post-6.html">Top 5 API Security Best Practices
+                    </a></h2>
+                </div>
+                <div class="post-entry-1">
+                  <a href="https://demandtech.net/LP/Webinars/Risk%20Based%20Cybersecurity.mp4"><img
+                      src="assets/img/Capture.PNG" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">
+                      Risk-based Security</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>
+                  <h2><a href="https://demandtech.net/LP/Webinars/Risk%20Based%20Cybersecurity.mp4">Risk-based Security:
+                      What to Look for in an MDR Provider
+                    </a></h2>
+                </div>
+              </div>
+
+              <!-- Trending Section -->
+              <div class="col-lg-4">
+
+                <div class="trending">
+                  <h3>Trending</h3>
+                  <ul class="trending-post">
+                    <li>
+                      <a href="single-post-11.html">
+                        <span class="number">1</span>
+                        <h3>Eye of the Storm: F&A's Role in Responding to Instability & Volatility</h3>
+                        <span class="author"> MAY 25TH '23</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="single-post-3.html">
+                        <span class="number">2</span>
+                        <h3>How Can Financial Institutions Safeguard Against Deepfakes: The New Frontier of Online Crime?</h3>
+                        <span class="author">JUN 21ST '23</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="single-post-5.html">
+                        <span class="number">3</span>
+                        <h3>A Human Resource Leader's Guide: Delivering innovative people strategies with modern HR analytics</h3>
+                        <span class="author">MAR 29TH '23</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="single-post-12.html">
+                        <span class="number">4</span>
+                        <h3>5 Steps to Strategic Spend Management</h3>
+                        <span class="author">MAY 4TH '23</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="single-post-2.html">
+                        <span class="number">5</span>
+                        <h3>Top 5 Midsize Business Applicant Tracking Software With the Best User-Reviewed Value for Money</h3>
+                        <span class="author">MAY 19TH '23</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+              </div> <!-- End Trending Section -->
+            </div>
+          </div>
+
+        </div> <!-- End .row -->
+      </div>
+    </section> <!-- End Post Grid Section -->
+
+    <!-- ======= Featured Category Section ======= -->
+    <section class="category-section">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header d-flex justify-content-between align-items-center mb-5">
+          <h2>Featured</h2>
+          <div><a href="category.html" class="more">See All Featured</a></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-9">
+
+            <div class="d-lg-flex post-entry-2">
+              <a href="https://www.evanta.com/chro/houston/houston-chro-inner-circle-5976"
+                class="me-4 thumbnail mb-4 mb-lg-0 d-inline-block">
+                <img src="assets/img/houston.PNG" alt="" class="img-fluid">
+              </a>
+              <div>
+                <!-- <div class="post-meta"><span class="date">Featured</span> <span class="mx-1">&bullet;</span> <span>April 4, 2023</span></div> -->
+                <h3><a href="https://www.evanta.com/chro/houston/houston-chro-inner-circle-5976">Houston CHRO Inner
+                    Circle</a></h3>
+                <p>Join Houston's top CHROs for an intimate networking dinner and facilitated discussion on key business
+                  challenges. 
+
+                </p>
+                <div class="d-flex align-items-center author">
+                  <!-- <div class="photo"><img src="assets/img/person-2.jpg" alt="" class="img-fluid"></div> -->
+                  <div class="name">
+                    <h3 class="m-0 p-0">April 4, 2023
+
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="post-entry-1 border-bottom">
+                  <a href="https://www.ey.com/en_sg/ey-events/-ceo-strategy-lunch-ey-ceo-outlook-pulse-2023"><img src="assets/img/Cybersecurity.jpg" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">Featured</span>
+                    <!-- <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span> -->
+                  </div>
+                  <h2 class="mb-2"><a href="https://www.ey.com/en_sg/ey-events/-ceo-strategy-lunch-ey-ceo-outlook-pulse-2023">Join us to gain insights and discuss how CEOs can play
+                      both defense and offense in their strategy ahead.
+                    </a></h2>
+                  <!-- <span class="author mb-3 d-block">Jenny Wilson</span> -->
+                  <p class="mb-4 d-block">The EY CEO Outlook Pulse survey of 2023, which canvassed the views of 1,200
+                    CEOs across the globe, including 40 from Singapore, found that the vast majority of CEO respondents
+                    are bracing for an economic downturn. But views appear split on the length, depth and severity of
+                    this downturn.
+                  </p>
+                </div>
+
+                <div class="post-entry-1">
+                  <div class="post-meta"><span class="date">Featured</span> <span class="mx-1">&bullet;</span> <span>Jul
+                      5th '22</span></div>
+                  <h2 class="mb-2"><a href="https://demandtech.net/LP/Webinars/Risk%20Based%20Cybersecurity.mp4">Risk-based Security: What to Look for in an MDR
+                      Provider</a></h2>
+                  <span class="author mb-3 d-block"></span>
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="post-entry-1">
+                  <a href="https://softwarearchitecture.live/"><img
+                      src="assets/img/new6.PNG" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date"></span> <span class="mx-1"></span>
+                    <span> AUGUST 25, 2023</span></div>
+                  <h2 class="mb-2"><a
+                      href="https://softwarearchitecture.live/">Software Architecture Conference</a></h2>
+                  <!-- <span class="author mb-3 d-block">Jenny Wilson</span> -->
+                  <p class="mb-4 d-block">Discover the latest strategies shaping software architecture. Join us as we explore innovative approaches for designing robust and resilient architectures in today’s dynamic digital landscape. Revolutionize your software development journey with the newest trends and techniques.We publish the latest news and articles on cutting-edge software development topics. Developers share their knowledge and connect via content, forums, and chapters. Thousands of members benefit from our monthly events, webinars, and conferences. We also provide tools for career growth such as career advice, resume writing, training, certifications, books and whitepapers, and videos.
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date"></span> <span class="mx-1"></span> <span>MAR 29TH '23</span></div>
+              <h2 class="mb-2"><a href="single-post-5.html">A Human Resource Leader's Guide: Delivering innovative people strategies with modern HR analytics</a></h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date"></span> <span class="mx-1"></span> <span>MAY 19TH '23</span></div>
+              <h2 class="mb-2"><a href="single-post-7.html">Cloud 101 for Oracle E-Business Suite Users</a></h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date"></span> <span class="mx-1"></span> <span>MAY 25TH '23</span></div>
+              <h2 class="mb-2"><a href="single-post-11.html">Eye of the Storm: F&A's Role in Responding to Instability & Volatility</a>
+              </h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date"></span> <span class="mx-1"></span> <span>JUN 21ST '23</span></div>
+              <h2 class="mb-2"><a href="single-post-3.html">How Can Financial Institutions Safeguard Against Deepfakes: The New Frontier of Online Crime?</a></h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date"></span> <span class="mx-1"></span> <span>MAR 6TH '23</span></div>
+              <h2 class="mb-2"><a href="single-post-4.html">How to Evaluate MDR and SIEM</a>
+              </h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+
+            <div class="post-entry-1 ">
+              <div class="post-meta"><span class="date"></span> <span class="mx-1"></span> <span></span></div>
+              <h2 class="mb-2"><a href=""></a></h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Featured Category Section -->
+
+    <!-- ======= Business Category Section ======= -->
+    <section class="category-section">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header d-flex justify-content-between align-items-center mb-5">
+          <h2>Trending</h2>
+          <!-- <div><a href="category.html" class="more">See All Business</a></div> -->
+        </div>
+
+        <div class="row">
+          <div class="col-md-9 order-md-2">
+
+            <div class="d-lg-flex post-entry-2">
+              <a href="single-post-2.html"
+                class="me-4 thumbnail d-inline-block mb-4 mb-lg-0">
+                <img src="assets/img/top-5.PNG" alt="" class="img-fluid">
+              </a>
+              <div>
+                <div class="post-meta"><span class="date"></span> <span class="mx-1"></span>
+                  <span></span></div>
+                <h3><a href="single-post-2.html">Top 5 Midsize
+                    Business Applicant Tracking Software With the Best User-Reviewed Value for Money
+
+                  </a></h3>
+                <p>Discover the Top-Rated Applicant Tracking Software for Your Midsize Business
+Are you tired of sifting through countless options to find the best applicant tracking software for your midsize business? Look no further. </p>
+                <div class="d-flex align-items-center author">
+                  <div class="photo"><img src="" alt="" class="img-fluid"></div>
+                  <div class="name">
+                    <h3 class="m-0 p-0"></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="post-entry-1  ">
+                  <a href="single-post-3.html"><img
+                      src="assets/img/Img4.png" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date"></span> <span class="mx-1"></span> <span></span></div>
+                  <h2 class="mb-2"><a
+                      href="single-post-3.html">How Can Financial Institutions Safeguard Against Deepfakes: The New Frontier of Online Crime?</a></h2>
+                  <span class="author mb-3 d-block"></span>
+                  <p class="mb-4 d-block">
+                    </p>
+                </div>
+
+                <div class="post-entry-1">
+                  <div class="post-meta"><span class="date"></span> <span class="mx-1"></span> <span></span></div>
+                  <h2 class="mb-2"><a href="single-post.html"></a></h2>
+                  <span class="author mb-3 d-block"></span>
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="post-entry-1">
+                  <a href="single-post-9.html"><img src="assets/img/xdx.webp" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date"></span> <span class="mx-1"></span> <span>
+                      </span></div>
+                  <h2 class="mb-2"><a href="single-post-9.html">The Rise of a New Enterprise Reality</a></h2>
+                  <span class="author mb-3 d-block"></span>
+                  <p class="mb-4 d-block">New Challenges and New Solutions for Today’s Distributed, Cloud-based World
+                    It is an inescapable truth that your organization must now architect its network to accommodate an era in which your workers and applications can be anywhere, your network will be more dynamic</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">APR 23RD '23</span> <span class="mx-1"></span> <span></span></div>
+              <h2 class="mb-2"><a href="single-post-1.html">Microsoft Teams & Telephony: Why Businesses Prefer UCaaS Providers</a></h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">MAY 19TH '23</span> <span class="mx-1"></span> <span>
+                  </span></div>
+              <h2 class="mb-2"><a href="single-post-2.html">Top 5 Midsize Business Applicant Tracking Software With the Best User-Reviewed Value for Money</a></h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">JUN 21ST '23</span> <span class="mx-1"></span> <span></span></div>
+              <h2 class="mb-2"><a href="single-post-3.html">How Can Financial Institutions Safeguard Against Deepfakes: The New Frontier of Online Crime?</a>
+              </h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">MAR 6TH '23</span> <span class="mx-1"></span> <span></span></div>
+              <h2 class="mb-2"><a href="single-post-4.html">How to Evaluate MDR and SIEM</a></h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date"> MAR 24TH '23</span> <span class="mx-1"></span> <span></span></div>
+              <h2 class="mb-2"><a href="single-post-9.html">The Rise of a New Enterprise Reality</a>
+              </h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date"> APR 9TH '23</span> <span class="mx-1"></span> <span></span></div>
+              <h2 class="mb-2"><a href="single-post-6.html">Top 5 API Security Best Practices</a></h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Business Category Section -->
+
+    <!-- ======= Lifestyle Category Section ======= -->
+    <section class="category-section">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header d-flex justify-content-between align-items-center mb-5">
+          <h2>Most Viewed</h2>
+          <!-- <div><a href="category.html" class="more">See All Lifestyle</a></div> -->
+        </div>
+
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <div class="post-entry-1 lg">
+              <a href="single-post-7.html"><img src="assets/img/Img8.png" alt="" class="img-fluid" style="border: 1px solid black;"></a>
+              <div class="post-meta"><span class="date">Lifestyle</span> <span class="mx-1">&bullet;</span> <span>MAY 19TH '23</span></div>
+              <h3><a href="single-post-7.html">Cloud 101 for Oracle E-Business Suite Users</p>
+
+              <div class="d-flex align-items-center author">
+                <div class="photo"><img src="" alt="" class="img-fluid"></div>
+                <div class="name">
+                  <h3 class="m-0 p-0"></h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date"></span> <span class="mx-1">&bullet;</span> <span>MAR 24TH '23</span></div>
+              <h2 class="mb-2"><a href="single-post-9.html">The Rise of a New Enterprise Reality</a>
+              </h2>
+              <span class="author mb-3 d-block">New Challenges and New Solutions for Today’s Distributed, Cloud-based World
+                It is an inescapable truth that your organization must now architect its network to accommodate an era in which your workers and applications can be anywhere, your network will be more dynamic, and the strength of your relationships with customers and employees will be defined by the quality of digital experiences you deliver.</span>
+            </div>
+
+            <div class="post-entry-1">
+              <div class="post-meta"><span class="date"></span> <span class="mx-1"></span> <span></span></div>
+              <h2 class="mb-2"><a href="single-post.html"></a></h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+            <div class="row g-5">
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <a href="single-post-8.html"><img src="assets/img/Img9.png" alt="" class="img-fluid" style="border: 1px solid black;"></a>
+                  <div class="post-meta"><span class="date"></span> <span class="mx-1">&bullet;</span>
+                    <span>JAN 1ST '23</span></div>
+                  <h2><a href="single-post.html">Video-Based Security Technology In 2022</a></h2>
+                </div>
+                <br><br>
+                <div class="post-entry-1">
+                  <a href="single-post-9.html"><img src="assets/img/Img10.png" alt="" class="img-fluid" style="border: 1px solid black;"></a>
+                  <div class="post-meta"><span class="date"></span>MAR 24TH '23 <span class="mx-1"></span>
+                    <span></span></div>
+                  <h2><a href="single-post-9.html">The Rise of a New Enterprise Reality</a></h2>
+                </div>
+                <div class="post-entry-1">
+                  <a href=""><img src="" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date"> </span> <span class="mx-1"></span>
+                    <span></span></div>
+                  <h2><a href=""></a></h2>
+                </div>
+              </div>
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <a href="single-post-11.html"><img src="assets/img/Img12.png" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date"></span> <span class="mx-1"></span>
+                    <span> MAY 25TH '23</span></div>
+                  <h2><a href="single-post-11.html">Eye of the Storm: F&A's Role in Responding to Instability & Volatility</a></h2>
+                </div>
+                <!-- <div class="post-entry-1">
+                  <a href="single-post.html"><img src="https://demandtech.net/images/Featured/f2.webp" alt=""
+                      class="img-fluid"></a>
+                  <div class="post-meta"><span class="date"></span> <span class="mx-1"></span>
+                    <span></span></div>
+                  <h2><a href="single-post.html"></a></h2>
+                </div> -->
+                <div class="post-entry-1">
+                  <a href="single-post-12.html"><img src="assets/img/Img13.png" alt=""
+                      class="img-fluid"></a>
+                  <div class="post-meta"><span class="date"></span> <span class="mx-1"></span>
+                    <span> MAY 4TH '23</span></div>
+                  <h2><a href="single-post-12.html">5 Great Startup Tips for Female Founders</a></h2>
+                </div>
+              </div>
+              <div class="col-lg-4">
+
+                <div class="post-entry-1 border-bottom">
+                  <div class="post-meta"><span class="date"></span> <span class="mx-1"></span>
+                    <span>MAR 26TH '23</span></div>
+                  <h2 class="mb-2"><a href="single-post-10.html">Four ways to future proof your health benefits strategy</a></h2>
+                  <span class="author mb-3 d-block"></span>
+                </div>
+
+                <div class="post-entry-1 border-bottom">
+                  <div class="post-meta"><span class="date"></span> <span class="mx-1"></span>
+                    <span>JUL 1ST '23</span></div>
+                  <h2 class="mb-2"><a href="single-post.html">James Island Charter High School is at the Head of the Class for Security Screening With the Help of Evolv</a></h2>
+                  <span class="author mb-3 d-block"></span>
+                </div>
+
+                <div class="post-entry-1 border-bottom">
+                  <div class="post-meta"><span class="date"></span> <span class="mx-1"></span>
+                    <span> JUN 21ST '23</span></div>
+                  <h2 class="mb-2"><a href="single-post-3.html">How Can Financial Institutions Safeguard Against Deepfakes: The New Frontier of Online Crime?</a></h2>
+                  <span class="author mb-3 d-block"></span>
+                </div>
+
+                <div class="post-entry-1 border-bottom">
+                  <div class="post-meta"><span class="date"></span> <span class="mx-1"></span>
+                    <span>MAR 29TH '23</span></div>
+                  <h2 class="mb-2"><a href="single-post-5.html">A Human Resource Leader's Guide: Delivering innovative people strategies with modern HR analytics</a>
+                  </h2>
+                  <span class="author mb-3 d-block"></span>
+                </div>
+
+                <div class="post-entry-1">
+                  <div class="post-meta"><span class="date"></span> <span class="mx-1"></span>
+                    <span></span></div>
+                  <h2 class="mb-2"><a href="">
+                     </a></h2>
+                  <span class="author mb-3 d-block"></span>
+                </div>
+
+                <div class="post-entry-1">
+                  <div class="post-meta"><span class="date"></span> <span class="mx-1"></span>
+                    <span></span></div>
+                  <h2 class="mb-2"><a href=""></a>
+                  </h2>
+                  <span class="author mb-3 d-block"></span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- End .row -->
+      </div>
+    </section><!-- End Lifestyle Category Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content">
+      <div class="container">
+
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <h3 class="footer-heading">About DemandTech</h3>
+            <p style="text-align: justify;">At DemandTech, we are at the forefront of pioneering cutting-edge,
+              interactive, and continuously updated
+              resources for all things Technology. With an unwavering commitment to staying ahead of the curve, we
+              provide a hub for unparalleled Tech experiences. <br><br>
+
+              Our personalized, user-focused approach sets us apart, as we tailor unique journeys for every individual
+              within our global community. Embracing innovation, we design a seamless and ultra-personalized platform
+              that caters to your preferences and interests. <br><br>
+
+              Our vision goes beyond just delivering personalized content; we strive to build an ever-evolving
+              collaborative repository of Tech information. Empowering you to make informed decisions, we foster a
+              community of growth and success.
+
+              DemandTech is your gateway to the future of Technology exploration. Join us as we revolutionize the Tech
+              landscape and empower you to lead with confidence and knowledge. Discover the limitless possibilities with
+              DemandTech today.</p>
+          </div>
+          <div class="col-lg-3">
+            <h3 class="footer-heading">Navigation</h3>
+            <ul class="footer-links list-unstyled">
+              <li><a href="index.html"><i class="bi bi-chevron-right"></i> Home</a></li>
+              <li><a href="index.html"><i class="bi bi-chevron-right"></i> Trending Insights</a></li>
+              <li><a href="category.html"><i class="bi bi-chevron-right"></i> Whitepapers & Reports</a></li>
+              <li><a href="single-post.html"><i class="bi bi-chevron-right"></i> Connect & Subscribe</a></li>
+
+            </ul>
+          </div>
+
+
+          <div class="col-lg-4">
+            <h3 class="footer-heading">Recent Trends</h3>
+
+            <ul class="footer-links footer-blog-entry list-unstyled">
+              <li>
+                <a href="https://www.evanta.com/chro/houston/houston-chro-inner-circle-5976" class="d-flex align-items-center">
+                  <img src="assets/img/Houston CHRO.jpg" alt="" class="img-fluid me-3">
+                  <div>
+                    <div class="post-meta d-block"><span class="date"></span> <span class="mx-1"></span>
+                      <span>APRIL 4, 2023</span>
+                    </div>
+                    <span>Houston CHRO Inner Circle</span>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://events.optiv.com/event/e9ba43fc-9fef-4f97-9178-f9f4782a5c30/summary" class="d-flex align-items-center">
+                  <img src="assets/img/Optiv.PNG" alt="" class="img-fluid me-3">
+                  <div>
+                    <div class="post-meta d-block"><span class="date"></span> <span class="mx-1"></span>
+                      <span>APRIL 04, 2023</span>
+                    </div>
+                    <span>An Educational Cybersecurity Experience</span>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://demandtech.net/LP/Webinars/Risk%20Based%20Cybersecurity.mp4" class="d-flex align-items-center">
+                  <img src="assets/img/Capture.PNG" alt="" class="img-fluid me-3">
+                  <div>
+                    <div class="post-meta d-block"><span class="date"></span> <span class="mx-1"></span>
+                      <span>JUL 5TH '22</span>
+                    </div>
+                    <span>Risk-based Security: What to Look for in an MDR Provider</span>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://softwarearchitecture.live/" class="d-flex align-items-center">
+                  <img src="assets/img/new6.PNG" alt="" class="img-fluid me-3">
+                  <div>
+                    <div class="post-meta d-block"><span class="date"></span> <span class="mx-1"></span>
+                      <span>AUGUST 25, 2023</span>
+                    </div>
+                    <span>Software Architecture Conference</span>
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal">
+      <div class="container">
+
+        <div class="row justify-content-between">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <div class="copyright">
+              © Copyright <strong><span>DemandTech</span></strong>. All Rights Reserved
+            </div>
+
+            <div class="credits">
+              <!-- All the links in the footer should remain intact. -->
+              <!-- You can delete the links only if you purchased the pro version. -->
+              <!-- Licensing information: https://bootstrapmade.com/license/ -->
+              <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+              <a href="https://demandtech.net/Privacy%20Policy/">Privacy Policy</a>
+            </div>
+
+          </div>
+
+          <div class="col-md-6">
+            <div class="social-links mb-3 mb-lg-0 text-center text-md-end">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
